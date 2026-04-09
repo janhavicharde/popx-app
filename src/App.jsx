@@ -10,11 +10,11 @@ function App() {
       <div className="app-wrapper">
         <div className="mobile-container">
           <Routes>
-  <Route path="/" element={<Welcome />} />   
-  <Route path="/login" element={<Login />} />
-  <Route path="/signup" element={<Signup />} />
-  <Route path="/settings" element={<Settings />} />
-</Routes>
+            <Route path="/" element={<Welcome />} />   {/* MUST be this */}
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/settings" element={<Settings />} />
+          </Routes>
         </div>
       </div>
     </BrowserRouter>
